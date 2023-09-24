@@ -4,7 +4,7 @@ import Link from "next/link";
 
 
 export default function Header() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState<boolean>(false);
 
 
   const handleNav = () => {
